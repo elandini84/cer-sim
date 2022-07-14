@@ -9,6 +9,7 @@
 
         <!-- torso, head and base -->
         <xi:include href="../cer/conf/gazebo_cer_head/gazebo_cer_head_nws_yarp.xml" />
+        <xi:include href="../cer/conf/gazebo_cer_head/gazebo_cer_head_ros2Ctrl.xml" />
         <xi:include href="../cer/conf/gazebo_cer_torso/gazebo_cer_torso_nws_yarp.xml" />
         <xi:include href="../cer/conf/gazebo_cer_torso/gazebo_cer_torso_tripod_compute.xml" />
         <xi:include href="../cer/conf/gazebo_cer_torso/gazebo_cer_torso_tripod_nws_yarp.xml" />
