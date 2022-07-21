@@ -6,11 +6,10 @@
         <!-- all -->
         <xi:include href="../cer/conf/gazebo_cer_all/gazebo_cer_all_remapper.xml" />
         <xi:include href="../cer/conf/gazebo_cer_all/gazebo_cer_all_nws_ros2.xml" />
-        <!--<xi:include href="../cer/conf/gazebo_cer_all/gazebo_cer_all_ros2Ctrl.xml" />-->
+        <xi:include href="../cer/conf/gazebo_cer_all/gazebo_cer_all_ros2Ctrl.xml" />
 
         <!-- torso, head and base -->
         <xi:include href="../cer/conf/gazebo_cer_head/gazebo_cer_head_nws_yarp.xml" />
-        <!----><xi:include href="../cer/conf/gazebo_cer_head/gazebo_cer_head_ros2Ctrl.xml" /> <!---->
         <xi:include href="../cer/conf/gazebo_cer_torso/gazebo_cer_torso_nws_yarp.xml" />
         <xi:include href="../cer/conf/gazebo_cer_torso/gazebo_cer_torso_tripod_compute.xml" />
         <xi:include href="../cer/conf/gazebo_cer_torso/gazebo_cer_torso_tripod_nws_yarp.xml" />

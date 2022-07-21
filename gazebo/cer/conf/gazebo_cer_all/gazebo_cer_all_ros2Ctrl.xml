@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE robot PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
 
-    <device xmlns:xi="http://www.w3.org/2001/XInclude" name="cbw_ros2Ctrl" type="posCommand_nwsub_ros2">
+    <device xmlns:xi="http://www.w3.org/2001/XInclude" name="cbw_ros2Ctrl" type="controlBoard_iFaceTransLayer_ros2">
         <param name="name"> SIM_CER_ROBOT/cbRos2Ctrl </param>
         <action phase="startup" level="7" type="attach">
             <param name="device"> cbw_remapper </param>
