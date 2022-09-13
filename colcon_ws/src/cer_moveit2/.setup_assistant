@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: cer_rviz2
+    relative_path: urdf/cer.urdf
+  srdf:
+    relative_path: config/SIM_CER_ROBOT.srdf
+  package_settings:
+    author_name: Ettore Landini
+    author_email: ettore.landini@iit.it
+    generated_timestamp: 1663063836
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
