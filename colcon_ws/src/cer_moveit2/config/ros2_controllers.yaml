@@ -27,6 +27,7 @@ right_control:
       - r_wrist_pitch_eq_joint
     command_interfaces:
       - position
+      - velocity
     state_interfaces:
       - position
       - velocity
@@ -43,6 +44,7 @@ left_control:
       - l_wrist_pitch_eq_joint
     command_interfaces:
       - position
+      - velocity
     state_interfaces:
       - position
       - velocity

@@ -7,10 +7,11 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: Ettore Landini
     author_email: ettore.landini@iit.it
-    generated_timestamp: 1663063836
+    generated_timestamp: 1663073013
   control_xacro:
     command:
       - position
+      - velocity
     state:
       - position
       - velocity
@@ -20,6 +21,7 @@ moveit_setup_assistant_config:
   control_xacro:
     command:
       - position
+      - velocity
     state:
       - position
       - velocity
