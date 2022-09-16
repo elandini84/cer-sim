@@ -3,18 +3,18 @@ controller_manager:
   ros__parameters:
     update_rate: 100  # Hz
 
-    right_control:
+    right_arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
 
-    left_control:
+    left_arm_controller:
       type: joint_trajectory_controller/JointTrajectoryController
 
 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
-right_control:
+right_arm_controller:
   ros__parameters:
     joints:
       - r_shoulder_pitch_joint
@@ -27,11 +27,10 @@ right_control:
       - r_wrist_pitch_eq_joint
     command_interfaces:
       - position
-      - velocity
     state_interfaces:
       - position
       - velocity
-left_control:
+left_arm_controller:
   ros__parameters:
     joints:
       - l_shoulder_pitch_joint
@@ -44,7 +43,6 @@ left_control:
       - l_wrist_pitch_eq_joint
     command_interfaces:
       - position
-      - velocity
     state_interfaces:
       - position
       - velocity
