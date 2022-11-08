@@ -25,6 +25,7 @@ def generate_launch_description():
     ld = LaunchDescription()
 
     ld.add_action(DeclareBooleanLaunchArg("debug", default_value=False))
+    ld.add_action(DeclareBooleanLaunchArg("use_sim_time", default_value=True))
     ld.add_action(
         DeclareLaunchArgument(
             "rviz_config",
