@@ -3,7 +3,7 @@
     <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
 
     <!-- Import SIM_CER_ROBOT urdf file -->
-    <xacro:include filename="$(find cer_rviz2)/urdf/cer.urdf" />
+    <xacro:include filename="$(find cer_description)/urdf/cer.urdf" />
 
     <!-- Import control_xacro -->
     <xacro:include filename="SIM_CER_ROBOT.ros2_control.xacro" />

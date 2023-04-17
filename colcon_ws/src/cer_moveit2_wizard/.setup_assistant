@@ -1,6 +1,6 @@
 moveit_setup_assistant_config:
   urdf:
-    package: cer_rviz2
+    package: cer_description
     relative_path: urdf/cer.urdf
   srdf:
     relative_path: config/SIM_CER_ROBOT.srdf
