@@ -1,0 +1,10 @@
+# Default initial positions for SIM_CER_ROBOT's ros2_control fake system
+
+initial_positions:
+  l_elbow_joint: 0
+  l_shoulder_roll_joint: 0
+  l_shoulder_yaw_joint: 0
+  l_wrist_heave_eq_joint: 0
+  l_wrist_pitch_eq_joint: 0
+  l_wrist_pronosupination_joint: 0
+  l_wrist_roll_eq_joint: 0
