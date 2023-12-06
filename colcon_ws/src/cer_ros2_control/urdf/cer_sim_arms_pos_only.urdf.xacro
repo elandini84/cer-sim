@@ -7,7 +7,7 @@
     <xacro:arg name="input_cont_pos_write" default="true" />
 
     <!-- Import SIM_CER_ROBOT urdf file -->
-    <xacro:include filename="$(find cer_description)/urdf/cer.urdf" />
+    <xacro:include filename="$(find cer_description)/urdf/R1-SIM_urdf/cer.urdf" />
 
     <!-- Import control_xacro -->
     <xacro:include filename="$(find cer_ros2_control)/ros2_control/cer_sim_arms_pos_only.ros2_control.xacro" />
